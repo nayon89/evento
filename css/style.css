@@ -1,0 +1,1210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* =========================================================================================
+                                        nav part start
+============================================================================================*/
+nav {
+    padding: 30px 0 !important;
+    position: absolute !important;
+    width: 100%;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.4);
+}
+
+nav #navbarSupportedContent {
+    margin-left: 70px;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline-block;
+    color: #fff;
+    transition: .4s !important;
+}
+
+nav ul li a:hover {
+    color: #ffe169;
+}
+
+nav ul li ul {
+    background: #6e06ae !important;
+    border: 0;
+    left: -45px !important;
+}
+
+nav ul li ul li {
+    margin-left: 0;
+}
+
+nav ul li ul li a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline-block;
+    color: #fff !important;
+
+}
+
+nav ul li ul li a:hover {
+    color: #ffe169 !important;
+    background: transparent !important;
+}
+
+nav .button {
+    margin-left: 50px;
+}
+
+nav .button a {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: capitalize;
+    color: #0f2f44;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    display: inline-block;
+    background: linear-gradient(#ffe169, #ffa913);
+    border-radius: 4px;
+}
+
+/* =========================================================================================
+                                        nav part end
+============================================================================================*/
+/* =========================================================================================
+                                        banner part start
+============================================================================================*/
+#banner-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+#banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(109, 13, 176, 0.6), rgb(65, 132, 208, 0.6));
+    padding: 280px 0 50px;
+}
+
+#banner-part .overlay .details {
+    text-align: center;
+}
+
+#banner-part .overlay .details h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 12px;
+    margin-bottom: 10px;
+}
+
+#banner-part .overlay .details h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 780px;
+    margin: 0 auto;
+    line-height: 84px;
+}
+
+#banner-part .overlay .banner-counter {
+    display: flex;
+    width: 680px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#banner-part .overlay .banner-counter .time {
+    width: 25%;
+    font-size: 80px;
+    background: linear-gradient(to bottom, #ffa913, #ffe169);
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#banner-part .overlay .banner-counter .time .day {
+    right: -73px !important;
+}
+
+#banner-part .overlay .banner-counter .time:nth-child(even) {
+    background: linear-gradient(to top, #ffa913, #ffe169);
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#banner-part .overlay .banner-counter .time .text {
+    font-size: 22px;
+    position: relative;
+    top: -71px;
+    right: -53px;
+    transform: rotate(-90deg);
+}
+
+#banner-part .overlay .banner-video i {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    background: linear-gradient(to right, #ffe169, #ffa913);
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+#banner-part .overlay .banner-video {
+    position: relative;
+}
+
+#banner-part .overlay .banner-video p {
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#banner-part .overlay .banner-video .video {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
+
+/* =========================================================================================
+                                        banner part end
+============================================================================================*/
+/* =========================================================================================
+                                        festival part start
+============================================================================================*/
+#festival-part .row {
+    margin: 100px 0;
+}
+
+#festival-part {
+    position: relative;
+}
+
+#festival-part .img {
+    position: absolute;
+    top: -285px;
+    left: 120px;
+    z-index: -1;
+}
+
+#festival-part .row .shape {
+    position: relative;
+}
+
+#festival-part .row .shape img {
+    position: absolute;
+    top: 5px;
+    right: 100px;
+}
+
+#festival-part .festival-slider .slick-dots {
+    position: absolute;
+    bottom: -45px;
+    left: 43%;
+    transform: translateX(-50%);
+}
+
+#festival-part .festival-slider .slick-dots li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#festival-part .festival-slider .slick-dots button {
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    background: transparent;
+}
+
+#festival-part .festival-slider .slick-active button {
+    background: linear-gradient(#ffe169, #ffa913);
+    border: 1px solid transparent;
+    transform: scale(1.2);
+}
+
+#festival-part .festival-slider .item {
+    position: relative;
+    height: 504px;
+}
+
+#festival-part .festival-slider .item .topimg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#festival-part .main {
+    display: flex;
+}
+
+#festival-part .main .year {
+    width: 25%;
+}
+
+#festival-part .main .festival-text {
+    width: 75%;
+}
+
+#festival-part .main .year h2 {
+    font-size: 122px;
+    font-weight: 700;
+    line-height: 1;
+    word-wrap: break-word;
+    background: url(../images/festivetextshape.png) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 48%;
+}
+
+#festival-part .main .year p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+#festival-part .festival-text h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0f2f44;
+    text-transform: uppercase;
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+#festival-part .festival-text p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    width: 583px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+#festival-part .festival-text .line {
+    margin: 30px 0;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.2);
+}
+
+#festival-part .festival-text .button img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#festival-part .festival-text .button {
+    position: relative;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#festival-part .festival-text .button span {
+    display: block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 24px;
+    padding-left: 60px;
+}
+
+/* =========================================================================================
+                                        festival part end
+============================================================================================*/
+/* =========================================================================================
+                                        speaker part start
+============================================================================================*/
+#speaker-part {
+    background: url(../images/speaker-bg.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+#speaker-part .title {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#speaker-part .title p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+#speaker-part .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#speaker-part .speaker {
+    display: flex;
+    margin-top: 100px;
+}
+
+#speaker-part .speaker .img {
+    width: 35%;
+}
+
+#speaker-part .speaker .img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#speaker-part .speaker .text {
+    width: 65%;
+    padding-top: 20px;
+}
+
+#speaker-part .speaker .text .time {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffc107;
+    padding: 5px 10px;
+    background: #343a40;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+#speaker-part .speaker .text .intro h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#speaker-part .speaker .text .intro p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#speaker-part .speaker .text span {
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0f2f44;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+#speaker-part .speaker .text .social-icon {
+    position: relative;
+    width: 100%;
+
+}
+
+#speaker-part .speaker .text .social-icon .follow {
+    position: absolute;
+    left: -105px;
+    bottom: -48px;
+    background: #f8f9fa;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+#speaker-part .speaker .text .follow span::after {
+    width: 60px;
+    height: 1px;
+    background: rgb(161, 161, 161);
+    position: absolute;
+    top: 50%;
+    left: 108px;
+    transform: translateY(-50%);
+    content: "";
+}
+
+#speaker-part .speaker .text .social-icon {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#speaker-part .speaker .text .social-icon .follow i {
+    margin-right: 20px;
+    color: rgb(161, 161, 161);
+    transition: .4s;
+    cursor: pointer;
+}
+
+#speaker-part .speaker .text .social-icon .follow i:hover {
+    color: #0f2f44;
+}
+
+/* =========================================================================================
+                                        speaker part end
+============================================================================================*/
+/* =========================================================================================
+                                        event part start
+============================================================================================*/
+#event-part {
+    margin-bottom: 50px;
+}
+
+#event-part .title {
+    margin: 50px;
+    text-align: center;
+}
+
+#event-part .event-scroll {
+    height: 510px;
+}
+
+.nicescroll-cursors {
+    height: 50px !important;
+    left: 5px !important;
+}
+
+.nicescroll-rails {
+    width: 3px !important;
+    top: 2899px !important;
+    opacity: 1 !important;
+    left: 1436.5px !important;
+}
+
+#event-part .title p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0f2f44;
+    font-size: 20px;
+}
+
+#event-part .title h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0f2f44;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#event-part .event-box {
+    margin: 0 26px;
+    width: 96%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 33px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 33px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 33px -9px rgba(0, 0, 0, 0.75);
+    transition: .4s;
+}
+
+#event-part .event-box:last-child {
+    margin-bottom: 0;
+}
+
+#event-part .event-box .event-img {
+    width: 13%;
+}
+
+#event-part .event-box .event-details {
+    width: 64%;
+    margin-left: 20px;
+}
+
+#event-part .event-box .event-button {
+    width: 23%;
+}
+
+#event-part .event-box .event-details h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0f2f44;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+#event-part .event-box .event-details .info {
+    position: relative;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+#event-part .event-box .event-details .info img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#event-part .event-box .event-details .info span {
+    font-family: 'Barlow Condensed', sans-serif;
+    display: block;
+    color: #0f2f44;
+    font-size: 16px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    line-height: 22px;
+    transition: .4s;
+}
+
+#event-part .event-box .event-details .info-border::after {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    height: 50px;
+    width: 1px;
+    background: #d8d8d8;
+    content: "";
+}
+
+#event-part .event-box .event-button {
+    margin-top: 40px;
+
+}
+
+#event-part .event-box .event-button a {
+    padding: 15px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f2f44;
+    font-size: 24px;
+    background: linear-gradient(#ffe169, #ffa913);
+    border-radius: 5px;
+}
+
+#event-part .event-box:hover {
+    background: #0f2f44;
+    color: #f8f9fa;
+}
+
+#event-part .event-box:hover h3 {
+    color: #f8f9fa;
+}
+
+#event-part .event-box:hover .event-details span {
+    color: #f8f9fa;
+}
+
+/* =========================================================================================
+                                        event part end
+============================================================================================*/
+/* =========================================================================================
+                                        gallery part start
+============================================================================================*/
+#gallery-part .title {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#gallery-part .title p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: #0f2f44;
+}
+
+#gallery-part .title h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    color: #0f2f44;
+    font-weight: 600;
+}
+
+#gallery-part .gallery-slider .gallery-img {
+    position: relative;
+    margin: 0 5px;
+}
+
+#gallery-part .gallery-slider .gallery-img img {
+    width: 100%;
+}
+
+#gallery-part .gallery-slider .gallery-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(110, 7, 174, 0.7), rgb(75, 119, 205, 0.7));
+    opacity: 0;
+    transition: .4s;
+}
+
+#gallery-part .gallery-slider .gallery-img .overlay a {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .7;
+
+}
+
+#gallery-part .gallery-slider .gallery-img .overlay:hover {
+    opacity: 1;
+}
+
+#gallery-part .button {
+    margin: 50px 0;
+}
+
+#gallery-part {
+    text-align: center;
+}
+
+#gallery-part .button a {
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 15px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f2f44;
+    background: linear-gradient(#ffe169, #ffa913);
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+/* =========================================================================================
+                                        gallery part end
+============================================================================================*/
+/* =========================================================================================
+                                        feedback part start
+============================================================================================*/
+
+#feedback-part .feedback-slider .item {
+    width: 48%;
+    padding: 50px 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.75);
+    margin: 15px 20px;
+}
+
+#feedback-part .title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#feedback-part .title p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: #0f2f44;
+}
+
+#feedback-part .title h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f2f44;
+    text-transform: uppercase;
+}
+
+#feedback-part .item .text p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #444;
+}
+
+#feedback-part .item .img {
+    margin: 40px 0;
+    position: relative;
+}
+
+#feedback-part .item .img img {
+    margin: 0 auto;
+}
+
+#feedback-part .item .img .icon {
+    display: inline-block;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 28px;
+    position: absolute;
+    top: 22px;
+    right: 95px;
+    box-shadow: 3px 0 12px 0 rgba(0, 0, 0, .1);
+}
+
+#feedback-part .item .img .icon i {
+    color: #ffa913;
+    font-size: 20px;
+}
+
+#feedback-part .item .details h3 {
+    font-size: 32px;
+    color: #0f2f44;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#feedback-part .item .details p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    color: #999999;
+}
+
+#feedback-part .feedback-slider .slick-list {
+    height: 700px;
+}
+
+#feedback-part .feedback-slider .prev {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    top: 40%;
+    left: -80px;
+    transform: translateY(-50%);
+    background: linear-gradient(to bottom, #ffe169, #ffa913);
+}
+
+#feedback-part .feedback-slider .next {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    top: 40%;
+    right: -80px;
+    transform: translateY(-50%);
+    background: linear-gradient(to bottom, #ffe169, #ffa913);
+}
+
+/* =========================================================================================
+                                        feedback part end
+============================================================================================*/
+/* =========================================================================================
+                                        ticket part start
+============================================================================================*/
+/* #ticket-part {
+    background: url(../images/ttttttt.gif) no-repeat center;
+    background-size: cover;
+} */
+#ticket-part .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#ticket-part .title p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0f2f44;
+    font-size: 20px;
+}
+
+#ticket-part .title h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f2f44;
+    text-transform: uppercase;
+}
+
+#ticket-part .plan-slider .price {
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+#ticket-part .plan-slider .price h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    color: #0f2f44;
+    margin-bottom: 5px;
+}
+
+#ticket-part .plan-slider .price h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #ffa913, #ffe169);
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 50px;
+}
+
+#ticket-part .plan-slider .price p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+#ticket-part .plan-slider .price .shape1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#ticket-part .plan-slider .price .shape3 {
+    position: absolute;
+    top: -70px;
+    right: -70px;
+    overflow: hidden;
+}
+
+#ticket-part .plan-slider {
+    position: relative;
+}
+
+#ticket-part .plan-slider .underprice {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    z-index: -1;
+}
+
+#ticket-part .plan-slider .single-price {
+    position: relative;
+    margin: 40px 50px;
+}
+
+#ticket-part .plan-slider .shape2 {
+    position: absolute;
+    bottom: -17px;
+    left: -17px;
+}
+
+#ticket-part .plan-slider .prev {
+    position: absolute;
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    top: 45%;
+    left: -80px;
+    transform: translateY(-50%);
+    background: linear-gradient(to bottom, #ffe169, #ffa913);
+}
+
+#ticket-part .plan-slider .next {
+    position: absolute;
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    top: 57%;
+    left: -80px;
+    transform: translateY(-50%);
+    background: linear-gradient(to bottom, #ffe169, #ffa913);
+}
+
+#ticket-part .info h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 40px;
+    width: 54%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffa913;
+    margin-bottom: 30px;
+}
+
+#ticket-part input {
+    font-size: 20px;
+    color: #999;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#ticket-part .fname {
+    width: 48%;
+}
+
+#ticket-part .lname {
+    width: 48%;
+    margin-left: 24px;
+}
+
+#ticket-part .email {
+    width: 100%;
+}
+
+#ticket-part .number {
+    width: 100%;
+}
+
+#ticket-part .select {
+    width: 100%;
+    font-size: 20px;
+    color: #999;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+#ticket-part .method {
+    margin-bottom: 50px;
+}
+
+#ticket-part .method p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    color: #222222;
+}
+
+#ticket-part .method span {
+    margin-left: 400px;
+}
+
+#ticket-part .checkbox span {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #444444;
+}
+
+#ticket-part button {
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, #ffe169, #ffa913);
+    border: 0;
+    color: #0f2f44;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 37px;
+    cursor: pointer;
+}
+
+#ticket-part .line {
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background: #f5f4f4;
+}
+
+
+/* =========================================================================================
+                                        ticket part end
+============================================================================================*/
+/* =========================================================================================
+                                        sponsors part start
+============================================================================================*/
+#sponsors-part .title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+#sponsors-part .title p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0f2f44;
+    font-size: 20px;
+}
+
+#sponsors-part .title h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f2f44;
+    text-transform: uppercase;
+}
+
+#sponsors-part .brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sponsors-part .brand img {
+    border: 1px solid #eee;
+    padding: 40px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#sponsors-part .brand img:hover {
+    background: #f5f5f5;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================================================================================
+                                        sponsors part end
+============================================================================================*/
+/* =========================================================================================
+                                        footer part start
+============================================================================================*/
+#footer-part {
+    background: url(../images/footer.gif) no-repeat center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#footer-part .title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#footer-part .title p {
+    color: #ffa913;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#footer-part .title h2 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#footer-part form {
+    text-align: center;
+}
+
+#footer-part input {
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 50%;
+    padding-left: 20px;
+    font-size: 18px;
+    background: #ffffff;
+    color: #999999;
+    border: 0;
+    border-radius: 5px;
+    height: 56px;
+}
+
+#footer-part form {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#footer-part button {
+    position: absolute;
+    top: 0;
+    right: 324px;
+    width: 170px;
+    height: 100%;
+    background: linear-gradient(90deg, #ffe169, #ffa913);
+    border: 0;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+#footer-part .icon {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#footer-part .icon i {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    background: #fff;
+    margin: 0 5px;
+    color: #0f2f44;
+    font-size: 20px;
+    transition: .4s !important;
+}
+
+#footer-part .icon i:hover {
+    background: linear-gradient(90deg, #ffe169, #ffa923);
+}
+
+#footer-part .list {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#footer-part .list a {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 20px;
+    transition: .4s;
+}
+
+#footer-part .list a:hover {
+    color: #ffe169;
+}
+
+#footer-part .line {
+    width: 100%;
+    height: 2px;
+    background: #999999;
+}
+
+#footer-part .copyright {
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    border-top: 1px solid #1f3b4d;
+}
+
+/* =========================================================================================
+                                        footer part end
+============================================================================================*/

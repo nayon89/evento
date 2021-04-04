@@ -1,0 +1,60 @@
+@media (min-width:320px) and (max-width:575px){
+
+/* =================================================
+                        nav part start
+==================================================== */
+nav button i{
+    color: #fff;
+}
+.navbar-toggler:focus {
+	
+	box-shadow: 0 0 0 .0rem;
+}
+nav ul{
+    background: #212529;
+    text-align: center;
+    width: 100%;
+}
+nav #navbarSupportedContent {
+	margin-left: 0;
+}
+nav ul li {
+    margin-left: 0;
+}
+nav ul li ul{
+    text-align: center;
+}
+nav .button {	
+	text-align: center;
+	background-color:#212529;
+	width: inherit;
+    margin-left: 0;
+    padding: 10px 0;
+}
+
+nav .button a {
+	font-size: 15px;
+    padding: 5px 12px;
+	
+}
+/* =================================================
+                        nav part end
+==================================================== */
+/* =================================================
+                        banner part start
+==================================================== */
+#banner-part .overlay .details h3 {
+	font-size: 19px;
+	letter-spacing: 10px;	
+}
+#banner-part .overlay .details h1 {
+	font-size: 39px;
+    width: auto;
+    line-height: 40px;
+
+}
+/* =================================================
+                        banner part end
+==================================================== */
+    
+}
